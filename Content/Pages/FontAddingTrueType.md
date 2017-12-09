@@ -84,7 +84,7 @@ Build the pipeline content project.
 Modifying your font's size or weight is done by editing the .spritefont file.
 
 
-```cs
+```xml
 <!--
 Size is a float value, measured in points. Modify this value to change
 the size of the font.
@@ -93,7 +93,7 @@ the size of the font.
 ```	
 
 
-```cs
+```xml
 <!--
 Style controls the style of the font. Valid entries are "Regular", "Bold", "Italic",
 and "Bold, Italic", and are case sensitive.

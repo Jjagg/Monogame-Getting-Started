@@ -25,7 +25,7 @@ Optionally download Xamarin.Android and Windows Phone 8 SDK
 Start up Git Shell, and type in the following:
 
 
-```cs
+```bash
 git clone https://github.com/mono/MonoGame.git
 cd MonoGame
 git submodule init
@@ -109,7 +109,7 @@ Optionally download Xamarin.Android and Xamarin.iOS.
 Start terminal and type in the following:
 
 
-```cs
+```bash
 git clone https://github.com/mono/MonoGame.git
 cd MonoGame
 git submodule init
@@ -120,7 +120,7 @@ git submodule update
 Once the update completes, type into terminal:
 
 
-```cs
+```bash
 cd MonoGame
 mono Protobuild.exe
 ```
