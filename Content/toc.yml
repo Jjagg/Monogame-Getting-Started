@@ -1,0 +1,69 @@
+- name 
+  - name: Getting Started
+    items:
+    - name: Overview
+      href: Pages/Start.md
+    - name: Installing MonoGame
+      href: Pages/InstallingMonoGame.md
+    - name: Building MonoGame Source Code
+      name: Pages/BuildingSource.md
+  - name: Creating a MonoGame Project
+    items:
+    - name: Platforms + Project Types
+      href: Pages/PlatformsAndProjects.md
+    - name: Building a MonoGame Project
+      href: Pages/BuildingFirstProject.md
+    - name: Inspecting Game1.cs
+      href: Pages/InspectingGame1.md
+    - name: Making the Game Fullscreen
+      href: Pages/Fullscreen.md
+  - name: Adding Game Content
+    items:
+    - name: What is the Content Pipeline?
+      href: Pages/ContentPipeline.md
+    - name: What is the Pipeline Tool
+      href: Pages/PipelineTool.md
+    - name: Launching the Pipeline Tool
+      href: Pages/LaunchPipelineTool.md
+    - name: Project Content vs Game Content
+      href: Pages/ProjectGameContent.md
+  - name: Textures
+    items:
+    - name: Adding a Texture
+      href: Pages/TextureAdding.md
+    - name: Drawing a Texture
+      href: Pages/TextureDrawing.md
+    - name: Modifying a Texture
+      href: Pages/TextureModify.md
+  - name: Fonts
+    items:
+    - name: Adding a TrueType Font
+      href: Pages/FontAddingTrueType.md
+    - name: Adding a Bitmap SpriteFont
+      href: Pages/FontAddingSpritefont.md
+    - name: Drawing Text
+      href: Pages/FontDrawing.md
+    - name: Modifying Text
+      href: Pages/FontModify.md
+    - name: Creating a Bitmap SpriteFont
+      href: Pages/CreateBitmapFont.md
+  - name: Sounds
+    items:
+    - name: Adding Sounds
+      href: Pages/SoundAdding.md
+    - name: Playing Sounds
+      href: Pages/SoundPlaying.md
+    - name: Modyfying Sounds
+      href: Pages/SoundModify.md
+    - name: Layering Sounds
+      href: Pages/SoundLayering.md
+  - name: Organizing Input
+    items:
+    - name: Creating InputHelper.cs
+      href: Pages/InputHelperCreate.html"
+    - name: Adding InputHelper to Game
+      href: Pages/InputHelperAdd.html" ta
+    - name: Adding Gamepad Input
+      href: Pages/InputHelperGamepad.html
+    - name: Supported Controllers
+      href: Pages/GamepadsSupported.html"
