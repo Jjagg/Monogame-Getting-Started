@@ -1,8 +1,8 @@
-
-
-
 # Installing MonoGame
 
+MonoGame 
+
+MonoGame is available as a [NuGet package](https://docs.microsoft.com/en-us/nuget/).
 
 ### Step 1 - Install a free, compatible IDE
 
