@@ -1,12 +1,11 @@
 # Create a MonoGame Project
 
-MonoGame comes with templates to set up a new project.
-Templates can be installed in two ways.
+MonoGame distributes templates to set up a new project in two ways:
 
-- With Visual Studio 2017 or newer
-- With .NET Core CLI
+- For Visual Studio
+- For .NET Core CLI
 
-## Setting up a Project in Visual Studio
+## Visual Studio
 
 MonoGame templates can be installed as a Visual Studio extension.
 
@@ -18,7 +17,7 @@ MonoGame templates can be installed as a Visual Studio extension.
 
 When Visual Studio restarts click Create a new project. The MonoGame templates should show up at the top, if not search for MonoGame in the search bar.
 
-You'll see a few different templates were installed. For an overview of the different platforms see [Target Platforms](PlatformsAndProjects.md).
+You'll see a few different templates were installed. For an overview of the different platforms see [Target Platforms](Platforms.md).
 
 For this guide we'll create an OpenGL Cross-Platform Desktop Application (we typically refer to this platform as DesktopGL).
 Select the template and click Next.
@@ -35,7 +34,7 @@ If you have a gamepad connected to your computer, you can press the back button 
 
 Next we'll look what's in the project we've just created in [Understanding the Project](UnderstandingProject.md).
 
-## Setting up a Project with .NET CLI
+## .NET Core CLI
 
 If you do not have Visual Studio installed you can set up a project using the .NET Core CLI (Command Line Interface).
 If you don't have the .NET Core SDK installed, go get the latest version [here](https://dotnet.microsoft.com/download).
@@ -45,9 +44,10 @@ Open a terminal and navigate to where you want to create the project.
 
 MonoGame publishes templates for [dotnet new](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new). To install the C# templates run `dotnet new -i MonoGame.Templates.CSharp`.
 
-There are templates in the package for different platforms. For an overview of the different platforms see [Target Platforms](PlatformsAndProjects.md).
+There are templates in the package for different platforms. For an overview of the different platforms see [Target Platforms](Platforms.md).
 
 For this guide we'll create a DesktopGL project. The identifier is `mgdesktopgl`, so you can create a project by running `dotnet new mgdesktopgl -o <project-folder>`.
+DesktopGL projects use OpenGL as the graphics backend and run on Windows, Mac and Linux.
 
 Navigate into the folder and run `dotnet run` to build and run the game.
 You should see a blue window pop up.
